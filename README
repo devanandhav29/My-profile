@@ -1,0 +1,31 @@
+# My Profile Website
+
+A simple personal profile website created using HTML and CSS.
+
+## About
+
+This is my first profile website project. It contains my personal details, hobbies, profile image, and contact form.
+
+## Features
+
+- Navigation Bar
+- Profile Section
+- About Me Section
+- Hobbies Section
+- Contact Form
+- Footer
+
+## Technologies Used
+
+- HTML5
+- CSS3
+
+## Project Files
+
+- profile.html - Main webpage
+- styles.css - Styling file
+- Profile Image - Website image
+
+## Author
+
+Devanandha V
