@@ -6,6 +6,8 @@ body{
     background-color:#f5f5f5;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.5px;
+    text-rentering: optimizelegibility
 }
 nav{
     text-align: centre
@@ -16,6 +18,8 @@ nav a{
     color: black;
     margin: 15px;
     font-weight: bold;
+    padding: 10px 15px
+    disply: inline-block;
 }
 
 nav a:hover {
@@ -25,14 +29,17 @@ h1 {
     color: white;
     text-align: centre;
     padding: 20px;
+    font-weight: 700;
 }
 p{ font-size: 18px;
    color:rgb(68 ,68 ,68);
    line-height:1.6;
    padding: 10px 20px;
+   font-weight: 400;
 }
 .highlight{
-    color: white;background: darkblue;
+    color: white;
+    background: darkblue;
     padding: 10px
 }
 form{
@@ -43,6 +50,8 @@ input{
     width: 100%
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 button{
     background-color: darkblue;
@@ -50,6 +59,7 @@ button{
     padding: 10px 20px;
     border: none;
     border-radius:8px;
+    disply:inline-block
 }
 button:hover{
     background: blue;
@@ -63,6 +73,8 @@ img{
     margin: 20px auto;
     boader: 3px solid black;
     box-shadow: 0 4px 10px gray;
+    object-fit: cover;
+    max-widht: 100%
 }
 input:focus{
     boader: 2px solid blue;
@@ -75,8 +87,14 @@ li:nth-child(2) {
 header{
     background-color:#1e40af;
     color:white;
-    text-allign:centre;
+    text-align:centre;
     padding: 20px;
+    box-shadow: 0 2px 8 px rgba(0,0,0,0.1);
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    width: 100%
+    left: 0;
 }
 section{
     background-color: white;
@@ -84,5 +102,19 @@ section{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    max-widht: 800px;
+    max-width: 800px;
+}
+card{
+    padding: 24px;
+    margin: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+textarea{
+    widht: 100%;
+    paddibg: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius : 5px;
+
 }
